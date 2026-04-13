@@ -52,6 +52,7 @@ Next steps:
 
 - `report/cookiecats_report.pdf`: Final report
 - `code/cookiecats_analysis.ipynb`: Main analysis notebook
+- `code/cookiecats_analysis.R`: Clean R script
 - `code/config.R`: Configuration file (data paths)
 
 ## Tools
