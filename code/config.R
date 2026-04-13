@@ -1,0 +1,1 @@
+COOKIECATS_DATA <- "../data/cookie_cats.csv"
