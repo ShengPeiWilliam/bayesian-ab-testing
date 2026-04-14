@@ -1,10 +1,12 @@
 # Cookie Cats A/B Testing
 Bayesian and Frequentist A/B testing on the Cookie Cats mobile game dataset. Compared gate placement at level 30 vs level 40 across 90,189 players, using Chi-square, Mann-Whitney U, Beta-Binomial, and Gamma-Poisson models. Gate 30 yields higher 7-day retention with 99.92% posterior probability.
 
-## Motivation
-Cookie Cats is a classic A/B testing dataset that offers both binary outcomes (retention) and a continuous metric (game rounds), making it well-suited for comparing Frequentist and Bayesian approaches side by side.
 
-The main question: does moving the gate from level 30 to level 40 improve or harm player retention?
+## Motivation
+
+After exploring continuous outcomes in [Bike Sharing Demand Forecasting](https://github.com/ShengPeiWilliam/bikerental-ml) and binary classification in [Customer Churn Prediction](https://github.com/ShengPeiWilliam/telecom-churn-ml), A/B testing felt like a natural next step. Cookie Cats is a beginner-friendly dataset that combines both: binary retention metrics and a continuous game rounds variable, making it well-suited for comparing Frequentist and Bayesian approaches side by side.
+
+
 
 ## Design Decisions
 
