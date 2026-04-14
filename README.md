@@ -4,9 +4,7 @@ Bayesian and Frequentist A/B testing on the Cookie Cats mobile game dataset. Com
 
 ## Motivation
 
-After exploring continuous outcomes in [Bike Sharing Demand Forecasting](https://github.com/ShengPeiWilliam/bikerental-ml) and binary classification in [Customer Churn Prediction](https://github.com/ShengPeiWilliam/telecom-churn-ml), A/B testing felt like a natural next step. Cookie Cats is a beginner-friendly dataset that combines both: binary retention metrics and a continuous game rounds variable, making it well-suited for comparing Frequentist and Bayesian approaches side by side.
-
-
+After exploring continuous outcomes in [Bike Sharing Demand Forecasting](https://github.com/ShengPeiWilliam/bikerental-ml) and binary classification in [Customer Churn Prediction](https://github.com/ShengPeiWilliam/telecom-churn-ml), A/B testing felt like a natural next step. Cookie Cats is a beginner-friendly dataset that combines both binary and continuous metrics, and a good place to explore where Frequentist testing falls short and why Bayesian inference fills that gap.
 
 ## Design Decisions
 
