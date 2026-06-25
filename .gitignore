@@ -7,3 +7,5 @@ data/*.csv
 *.fdb_latexmk
 *.synctex.gz
 *.out
+*abstract.pdf
+*abstract.tex
