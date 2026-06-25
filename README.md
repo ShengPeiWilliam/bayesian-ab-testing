@@ -11,6 +11,8 @@ practically negligible. The 1-day retention difference is inconclusive
 because most players have not yet reached the gate within the first day, 
 showing why metric timing matters in A/B test design.
 
+[See business recommendations →](#business-recommendations)
+
 ## Motivation
 
 A/B testing is a foundational topic in experimentation, and the Cookie Cats 
@@ -59,6 +61,14 @@ does not assume normality.
 | retention_1 | 96.19% | [-0.0006, 0.0124] |
 | retention_7 | 99.92% | [0.0031, 0.0133] |
 | sum_gamerounds | 100.00% | [1.0631, 1.2519] |
+
+## Business Recommendations
+
+**1. Keep the gate at level 30**: 7-day retention is higher with 99.92% posterior probability. The effect is small but consistent, there is no reason to move the gate later.
+
+**2. Pick the right metric before you run the test**: 1-day retention looked inconclusive, not because the gate does nothing, but because most players had not even reached level 30 yet. If your metric fires before the treatment kicks in, the test tells you nothing.
+
+> *Measuring too early is the same as not measuring at all.*
 
 ## Reflections & Next Steps
 
